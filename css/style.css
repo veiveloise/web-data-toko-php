@@ -1,0 +1,52 @@
+html, body{
+	height: 100%;
+	background-color: black !important;
+}
+
+.global-container{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: hotpink;
+}
+
+.login-form{
+	width: 400px;
+	height: 450px;
+	padding: 20px;
+	background-color: black !important;
+	border-radius: 10px !important;
+}
+
+input[type="text"],input[type="password"]{
+	background: black;
+	border-radius: none;
+	color: white;
+	border: none;
+	border-bottom: 2px hotpink solid;
+	margin-bottom: 25px;
+}
+input[type="text"]:focus ,input[type="password"]:focus {
+  outline: none;
+  border-bottom: 2px hotpink solid;
+  background: black;
+  color: white;
+  margin: 0;
+
+}
+
+.card-title{
+	padding-top: 20px;
+}
+.btn{
+	background: hotpink !important;
+	color: white;
+	transform: translateY(10px);
+	font-size: 14px;
+	border-radius: 10px !important;
+	border-color: hotpink;
+}
+
+
+
